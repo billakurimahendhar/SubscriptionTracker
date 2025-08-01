@@ -1,0 +1,33 @@
+# Node dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+.env.*      # For files like .env.development.local
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+*.swp
+.idea/
+
+# Build outputs
+dist/
+build/
+coverage/
+
+# Debug
+*.tgz
+*.gz
+
+# Optional if you're using PM2 or similar
+pids
+*.pid
