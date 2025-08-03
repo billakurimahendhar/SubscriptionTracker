@@ -2,7 +2,7 @@ import express from "express";
 import { Router } from "express";
 const userRouter = Router();
 userRouter.get('/',(req,res)=>{
-    res.send({title: ''});
+    res.send({title: 'get user data'});
 });
 userRouter.get('/:id',(req,res)=>{
     res.send({title: 'Get user Details'});

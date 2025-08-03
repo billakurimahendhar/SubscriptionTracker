@@ -1,33 +1,39 @@
-# Node dependencies
+# Node modules
 node_modules/
 
 # Logs
 logs/
 *.log
 npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Environment variables
+# dotenv environment variables
 .env
-.env.*      # For files like .env.development.local
+.env.*
+!.env.example
 
-# OS-specific
+# OS-specific files
 .DS_Store
 Thumbs.db
 
-# IDE files
-.vscode/
-*.swp
-.idea/
-
-# Build outputs
+# Build output
 dist/
 build/
+
+# VS Code settings
+.vscode/
+
+# Local env files
+*.local
+
+# Coverage directory for tests
 coverage/
 
-# Debug
-*.tgz
-*.gz
-
-# Optional if you're using PM2 or similar
+# Optional: If you use PM2
 pids
 *.pid
+*.seed
+
+# Optional: If using MongoDB dump/restore locally
+dump/
